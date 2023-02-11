@@ -97,16 +97,16 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
-.logo {
-  order: 1;
-  font-size: 2.3rem;
+.logo img {
+  /* order: 1; */
+  height: 2.3rem;
   margin-bottom: 0.5rem;
 }
 
 /* ............//// Showcase styling ////......... */
 
 .showcase-area {
-  height: 50vh;
+  height: 100vh;
   background: linear-gradient(
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
@@ -134,6 +134,7 @@ body {
 /* ......//about us//...... */
 
 #about {
+    height: 100vh;
   padding: 50px 0;
   background: #f5f5f7;
 }
@@ -198,6 +199,7 @@ body {
 
 #food {
   padding: 5rem 0 10rem 0;
+  height: 100vh;
 }
 
 #food h2 {
@@ -279,6 +281,7 @@ body {
 
 .food-menu-heading {
   text-align: center;
+  padding: 4vw 0vw 0vw 0vw;
   font-size: 3.4rem;
   font-weight: 400;
   color: #666;
@@ -389,6 +392,7 @@ body {
 }
 
 .contact-img img {
+  margin-top: 0.8vw;
   display: block;
   height: 400px;
   width: 100%;
@@ -432,6 +436,7 @@ body {
   color: #444;
   margin-bottom: 1rem;
   margin-top: -1.2rem;
+  padding: 0vw 0vw 0vw 2vw;
 }
 
 .form-container a {
@@ -613,7 +618,7 @@ body {
 
   .logo {
     position: absolute;
-    top: 06px;
+    top: 6px;
     right: 15px;
     font-size: 3rem;
   }
