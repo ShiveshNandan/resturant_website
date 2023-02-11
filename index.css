@@ -458,7 +458,9 @@ body {
   .navbar {
     opacity: 0.95;
   }
-
+  #about{
+    height: auto;
+  }
   .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
     display: block;
