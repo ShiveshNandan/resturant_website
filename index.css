@@ -461,6 +461,10 @@ body {
   #about{
     height: auto;
   }
+  #food{
+    height: auto;
+  }
+  
   .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
     display: block;
